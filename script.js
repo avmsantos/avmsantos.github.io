@@ -99,6 +99,7 @@ function draw() {
         ctx.fillStyle = "rgba(0,0,0,0.4)"; ctx.fillRect(0, 0, canvas.width, canvas.height);
         ctx.fillStyle = "white"; ctx.font = "bold 40px sans-serif";
         ctx.fillText("Pula Passarinho", canvas.width/2, canvas.height/2 - 50);
+        ctx.fillText("Amanda ", canvas.width/2, canvas.height/2 - 90);
         ctx.font = "24px sans-serif"; ctx.fillText("Toque para Iniciar", canvas.width/2, canvas.height/2 + 20);
     }
     if (gameState === STATE_GAMEOVER) {
