@@ -1,0 +1,22 @@
+{
+  "short_name": "FlappyAmanda",
+  "name": "Flappy Bird Bahia Edition",
+  "icons": [
+    {
+      "src": "icone-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icone-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./index.html",
+  "background_color": "#4facfe",
+  "display": "standalone",
+  "scope": "./",
+  "theme_color": "#00f2fe",
+  "description": "Um jogo de Flappy Bird criado pela Amanda."
+}
